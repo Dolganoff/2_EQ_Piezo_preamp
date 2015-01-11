@@ -1,0 +1,185 @@
+Cmp-Mod V01 Created by Cvpcb (2014-11-09 BZR 5259)-product   date = lun. 05 janv. 2015 19:07:06 CET
+
+BeginCmp
+TimeStamp = /53592E16;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = Custom:C2-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53593897;
+Reference = C3;
+ValeurCmp = 4.7uF;
+IdModule  = Custom:C1V5-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592A5B;
+Reference = C4;
+ValeurCmp = 0.0047uF;
+IdModule  = Custom:C2-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /535929E0;
+Reference = C5;
+ValeurCmp = 0.047uF;
+IdModule  = Custom:C2-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592A4C;
+Reference = C6;
+ValeurCmp = 0.0047 uF;
+IdModule  = Custom:C2-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592AE6;
+Reference = C7;
+ValeurCmp = 47pF;
+IdModule  = Custom:C2-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592FA3;
+Reference = C8;
+ValeurCmp = 10uF;
+IdModule  = Custom:C1V5-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592B91;
+Reference = C9;
+ValeurCmp = 10uF;
+IdModule  = Custom:C1V5-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592FA9;
+Reference = C10;
+ValeurCmp = 47uF;
+IdModule  = Custom:C1V5-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53593118;
+Reference = C11;
+ValeurCmp = 0.1uF;
+IdModule  = Custom:C2-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592EAC;
+Reference = P1;
+ValeurCmp = IN;
+IdModule  = Custom:SIL-2-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592CBC;
+Reference = P2;
+ValeurCmp = OUT;
+IdModule  = Custom:SIL-2-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53593283;
+Reference = P3;
+ValeurCmp = 9V;
+IdModule  = Custom:SIL-2-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592E1C;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592DBE;
+Reference = R2;
+ValeurCmp = 5.1Meg;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592926;
+Reference = R3;
+ValeurCmp = 6.8K;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /535928BD;
+Reference = R4;
+ValeurCmp = 39K;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /535928EA;
+Reference = R5;
+ValeurCmp = 15K;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592917;
+Reference = R6;
+ValeurCmp = 6.8K;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592B29;
+Reference = R7;
+ValeurCmp = 470;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592F97;
+Reference = R8;
+ValeurCmp = 22K;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592F9D;
+Reference = R9;
+ValeurCmp = 22K;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5359363C;
+Reference = RV1;
+ValeurCmp = 10K Lin;
+IdModule  = Custom:SIL-3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5359299A;
+Reference = RV2;
+ValeurCmp = 50K Lin;
+IdModule  = Custom:SIL-3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592A30;
+Reference = RV3;
+ValeurCmp = 50K Lin;
+IdModule  = Custom:SIL-3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53592878;
+Reference = U1;
+ValeurCmp = OPA2244;
+IdModule  = Custom:DIP-8_LARGE_PADS;
+EndCmp
+
+EndListe
