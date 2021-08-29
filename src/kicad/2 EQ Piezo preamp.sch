@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:2 EQ Piezo preamp-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -56,7 +56,7 @@ F 3 "~" H 3500 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L R-RESCUE-2_EQ_Piezo_preamp R4
 U 1 1 535928BD
 P 5000 2950
 F 0 "R4" V 5080 2950 50  0000 C CNN
@@ -67,7 +67,7 @@ F 3 "" H 5000 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-2_EQ_Piezo_preamp R5
 U 1 1 535928EA
 P 5000 3550
 F 0 "R5" V 5080 3550 50  0000 C CNN
@@ -78,7 +78,7 @@ F 3 "" H 5000 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-2_EQ_Piezo_preamp R6
 U 1 1 53592917
 P 5600 2450
 F 0 "R6" V 5680 2450 50  0000 C CNN
@@ -89,7 +89,7 @@ F 3 "" H 5600 2450 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-2_EQ_Piezo_preamp R3
 U 1 1 53592926
 P 4700 2900
 F 0 "R3" V 4780 2900 50  0000 C CNN
@@ -120,7 +120,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2600 5000 2700
 $Comp
-L C C5
+L C-RESCUE-2_EQ_Piezo_preamp C5
 U 1 1 535929E0
 P 5000 2100
 F 0 "C5" H 5050 2200 50  0000 L CNN
@@ -156,7 +156,7 @@ $EndComp
 Wire Wire Line
 	5000 3900 5000 3800
 $Comp
-L C C6
+L C-RESCUE-2_EQ_Piezo_preamp C6
 U 1 1 53592A4C
 P 5600 4050
 F 0 "C6" H 5650 4150 50  0000 L CNN
@@ -167,7 +167,7 @@ F 3 "" H 5600 4050 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-2_EQ_Piezo_preamp C4
 U 1 1 53592A5B
 P 4700 3550
 F 0 "C4" H 4750 3650 50  0000 L CNN
@@ -189,7 +189,7 @@ Wire Wire Line
 	6950 4050 5800 4050
 Connection ~ 6950 3150
 $Comp
-L C C7
+L C-RESCUE-2_EQ_Piezo_preamp C7
 U 1 1 53592AE6
 P 6450 3800
 F 0 "C7" H 6500 3900 50  0000 L CNN
@@ -208,7 +208,7 @@ Wire Wire Line
 	6650 3800 6950 3800
 Connection ~ 6950 3800
 $Comp
-L R R7
+L R-RESCUE-2_EQ_Piezo_preamp R7
 U 1 1 53592B29
 P 7200 3500
 F 0 "R7" V 7280 3500 50  0000 C CNN
@@ -219,7 +219,7 @@ F 3 "" H 7200 3500 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CP1 C9
+L CP1-RESCUE-2_EQ_Piezo_preamp C9
 U 1 1 53592B91
 P 7650 3500
 F 0 "C9" H 7700 3600 50  0000 L CNN
@@ -243,7 +243,7 @@ $EndComp
 Text GLabel 5900 3050 0    60   Input ~ 0
 Vref
 $Comp
-L GND #PWR01
+L GND-RESCUE-2_EQ_Piezo_preamp #PWR01
 U 1 1 53592BEB
 P 6300 3550
 F 0 "#PWR01" H 6300 3550 30  0001 C CNN
@@ -267,7 +267,7 @@ $EndComp
 Wire Wire Line
 	7850 3500 7950 3500
 $Comp
-L GND #PWR03
+L GND-RESCUE-2_EQ_Piezo_preamp #PWR03
 U 1 1 53592D0A
 P 8050 4250
 F 0 "#PWR03" H 8050 4250 30  0001 C CNN
@@ -293,7 +293,7 @@ F 3 "" H 3400 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND-RESCUE-2_EQ_Piezo_preamp #PWR05
 U 1 1 53592DB8
 P 3400 3650
 F 0 "#PWR05" H 3400 3650 30  0001 C CNN
@@ -304,7 +304,7 @@ F 3 "" H 3400 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-2_EQ_Piezo_preamp R2
 U 1 1 53592DBE
 P 2950 2850
 F 0 "R2" V 3030 2850 50  0000 C CNN
@@ -321,7 +321,7 @@ Wire Wire Line
 Text GLabel 2950 2600 1    60   Input ~ 0
 Vref
 $Comp
-L C C1
+L C-RESCUE-2_EQ_Piezo_preamp C1
 U 1 1 53592E16
 P 2700 3150
 F 0 "C1" H 2750 3250 50  0000 L CNN
@@ -332,7 +332,7 @@ F 3 "" H 2700 3150 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-2_EQ_Piezo_preamp R1
 U 1 1 53592E1C
 P 2200 3150
 F 0 "R1" V 2280 3150 50  0000 C CNN
@@ -363,7 +363,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 3350 1950 3450
 $Comp
-L GND #PWR06
+L GND-RESCUE-2_EQ_Piezo_preamp #PWR06
 U 1 1 53592F22
 P 1950 3450
 F 0 "#PWR06" H 1950 3450 30  0001 C CNN
@@ -374,7 +374,7 @@ F 3 "" H 1950 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-2_EQ_Piezo_preamp R8
 U 1 1 53592F97
 P 7600 1950
 F 0 "R8" V 7680 1950 50  0000 C CNN
@@ -385,7 +385,7 @@ F 3 "" H 7600 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L R-RESCUE-2_EQ_Piezo_preamp R9
 U 1 1 53592F9D
 P 7600 2550
 F 0 "R9" V 7680 2550 50  0000 C CNN
@@ -396,7 +396,7 @@ F 3 "" H 7600 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C8
+L CP1-RESCUE-2_EQ_Piezo_preamp C8
 U 1 1 53592FA3
 P 7300 2550
 F 0 "C8" H 7350 2650 50  0000 L CNN
@@ -407,7 +407,7 @@ F 3 "" H 7300 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C10
+L CP1-RESCUE-2_EQ_Piezo_preamp C10
 U 1 1 53592FA9
 P 7800 2250
 F 0 "C10" H 7850 2350 50  0000 L CNN
@@ -434,7 +434,7 @@ Connection ~ 7600 2850
 Wire Wire Line
 	7800 1650 7800 2050
 $Comp
-L C C11
+L C-RESCUE-2_EQ_Piezo_preamp C11
 U 1 1 53593118
 P 8050 2650
 F 0 "C11" H 8100 2750 50  0000 L CNN
@@ -448,7 +448,7 @@ Connection ~ 7800 1650
 Connection ~ 7800 2850
 Connection ~ 6950 3500
 $Comp
-L GND #PWR07
+L GND-RESCUE-2_EQ_Piezo_preamp #PWR07
 U 1 1 53593251
 P 7600 2900
 F 0 "#PWR07" H 7600 2900 30  0001 C CNN
@@ -507,7 +507,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 4050 4750 4050
 $Comp
-L CP1 C3
+L CP1-RESCUE-2_EQ_Piezo_preamp C3
 U 1 1 53593897
 P 4250 3250
 F 0 "C3" H 4300 3350 50  0000 L CNN
